@@ -14,6 +14,12 @@ body:
       placeholder: Bug description
     validations:
       required: true
+  - type: checkboxes
+    id: will-send-PR
+    attributes:
+      label: Are you planning to send a PR to fix this bug?
+      options:
+        - label: I intend to submit a PR for this issue
   - type: textarea
     id: reproduction
     attributes:
