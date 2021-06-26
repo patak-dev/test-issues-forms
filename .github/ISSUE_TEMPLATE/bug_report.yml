@@ -12,7 +12,6 @@ body:
       label: Describe the bug
       description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
       placeholder: Bug description
-      value: "A bug happened!"
     validations:
       required: true
   - type: textarea
@@ -29,10 +28,15 @@ body:
     attributes:
       label: System Info
       description: Output of `npx envinfo --system --npmPackages vite,@vitejs/plugin-vue --binaries --browsers`
+      render: shell
       placeholder: "```node
-
+  System: 
+    ...
+  Binaries:
+    ...
+  Browsers:
+    ...
 ```"
-      value: "System info"
     validations:
       required: true
   - type: dropdown
