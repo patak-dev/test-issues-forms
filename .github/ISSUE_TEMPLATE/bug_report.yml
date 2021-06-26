@@ -17,6 +17,8 @@ body:
   - type: checkboxes
     id: will-send-PR
     attributes:
+      label: Working on PR
+      description: Please tell us if you intend to work on a PR to fix this bug. Thanks!
       options:
         - label: I intend to submit a PR for this issue.
   - type: textarea
