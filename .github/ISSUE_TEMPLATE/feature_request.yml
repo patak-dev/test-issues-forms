@@ -1,6 +1,5 @@
 name: "\U0001F680 New feature proposal"
-description: Propose a new feature to be added to Vite
-labels: ["enhancement: pending triage"]
+description: Suggest an idea for this project
 body:
   - type: markdown
     attributes:
@@ -9,38 +8,38 @@ body:
   - type: textarea
     id: feature-description
     attributes:
-      label: Clear and concise description of the problem
-      description: "As a developer using Vite I want [goal / wish] so that [benefit]. If you intend to submit a PR for this issue, tell us in the description. Thanks!"
+      label: Is your feature request related to a problem? Please describe.
+      description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]"
     validations:
       required: true
   - type: textarea
     id: suggested-solution
     attributes:
-      label: Suggested solution
-      description: "In module [xy] we could provide following implementation..."
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
     validations:
       required: true
   - type: textarea
     id: alternative
     attributes:
-      label: Alternative
-      description: Clear and concise description of any alternative solutions or features you've considered.
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
   - type: textarea
     id: additional-context
     attributes:
       label: Additional context
-      description: Any other context or screenshots about the feature request here.
+      description: Add any other context or screenshots about the feature request here.
   - type: checkboxes
     id: checkboxes
     attributes:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Follow our [Code of Conduct](https://github.com/vitejs/vite/blob/main/CODE_OF_CONDUCT.md)
+        - label: Follow our [Code of Conduct](https://vuejs.org/coc)
           required: true
-        - label: Read the [Contributing Guidelines](https://github.com/vitejs/vite/blob/main/.github/contributing.md).
+        - label: Read the [docs](https://vitepress.vuejs.org/).
           required: true
-        - label: Read the [docs](https://vitejs.dev/guide).
+        - label: Read the [Contributing Guidelines](https://github.com/vuejs/vitepress/blob/master/.github/contributing.md).
           required: true
-        - label: Check that there isn't already an issue that request the same feature to avoid creating a duplicate.
+        - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
           required: true
